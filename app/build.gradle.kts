@@ -7,6 +7,11 @@ android {
     namespace = "com.example.navigationuidemo2"
     compileSdk = 35
 
+buildFeatures {
+    dataBinding true
+}
+
+
     defaultConfig {
         applicationId = "com.example.navigationuidemo2"
         minSdk = 24
